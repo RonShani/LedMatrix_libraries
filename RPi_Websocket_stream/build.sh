@@ -1,0 +1,1 @@
+g++ -O3 ledMatrix_websockets.cpp -o ledMatrix_websockets -L/home/ronshani/rpi-rgb-led-matrix/lib -lrgbmatrix -lrt -lm -lpthread  -I/boost -I/boost/boost -O3 -Wall -lrt -lm -lpthread -Wno-unused-parameter -std=c++11 -pthread -lboost_system
